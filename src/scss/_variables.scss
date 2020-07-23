@@ -2,12 +2,12 @@
 // -------------------------------------------------------------------
 // Grayscale
 $white:                   #ffffff !default;
-$gray-1:                  #eeeeee !default;
-$gray-2:                  #dddddd !default;
-$gray-3:                  #b2b2b2 !default;
-$gray-4:                  #909090 !default;
-$gray-5:                  #6e6e6e !default;
-$gray-6:                  #4c4c4c !default;
+$gray-1:                  #f3f4f5 !default;
+$gray-2:                  #d7dbde !default;
+$gray-3:                  #9faab0 !default;
+$gray-4:                  #697780 !default;
+$gray-5:                  #434c51 !default;
+$gray-6:                  #24292C !default;
 
 // Hues
 $blue:                    #16a0e5 !default;
@@ -36,29 +36,29 @@ $baseline:                .4rem !default;
 // Font families
 $sans-serif:              "Open Sans", Avenir, "Avenir Next", Trebuchet, Verdana,
                           sans-serif !default;
-$serif:                   Georgia, Times, serif !default;
+$serif:                   "Frank Ruhl Libre", Georgia, Times, serif !default;
 $monospace:               Monaco, Menlo, Consolas,
                           monospace !default;
 
 $font-family--base:       $sans-serif !default;
-$font-family--heading:    $sans-serif !default;
+$font-family--heading:    $serif !default;
 $font-family--reading:    $serif !default;
 $font-family--ui:         $sans-serif !default;
 $font-family--code:       $monospace !default;
 
 // Type scale - good tool: http://type-scale.com/
-$h1:                      2.369rem !default;
-$h2:                      1.777rem !default;
-$h3:                      1.333rem !default;
+$h1:                      3.375rem !default;
+$h2:                      2.25rem !default;
+$h3:                      1.5rem !default;
 $h4:                      1rem !default;
 $h5:                      .75rem !default;
 $h6:                      .75rem !default;
 
 // Finer control over type scale after certain breakpoint (off by default)
 $responsive-type:         false !default;
-$h1--desktop:             2.369rem !default;
-$h2--desktop:             1.777rem !default;
-$h3--desktop:             1.333rem !default;
+$h1--desktop:             3.375rem !default;
+$h2--desktop:             2.25rem !default;
+$h3--desktop:             1.5rem !default;
 $h4--desktop:             1rem !default;
 $h5--desktop:             .75rem !default;
 $h6--desktop:             .75rem !default;
@@ -67,14 +67,14 @@ $h6--desktop:             .75rem !default;
 $text-color:              $gray-6 !default;
 
 // Text sizes
-$font-size--mobile:       15px !default;
-$font-size--desktop:      16px !default;
+$font-size--mobile:       16px !default;
+$font-size--desktop:      17px !default;
 $font-size--lg:           $h3 !default;
 $font-size--sm:           $h5 !default;
 
 // Weights
 $font-weight--base:       400 !default;
-$font-weight--heading:    700 !default;
+$font-weight--heading:    600 !default;
 
 // Line heights
 $line-height--base:       $baseline*4 !default;
