@@ -1,63 +1,125 @@
 @@include("partials/head.html")
 
+@@include("partials/header.html")
+
 <main>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <h1>Bookmark</h1>
-
-            <nav>
-                <li></li>
-            </nav>
-        </div>
-    </header>
 
     <!-- Hero -->
     <section>
-        <h1>Monthly Reading Club</h1>
-        <p>stuff</p>
-        <a href="" class="btn btn--outline">Get Started</a>
+        <div class="container">
+            <h2>Reading joy made easy</h2>
+            <p>Our monthly reading club makes reading more joyful and less stressful for both kids and parents.</p>
+            <a href="" class="btn btn--outline">Get Started</a>
+        </div>
     </section>
 
     <!-- Pillars -->
     <section>
-        
+        <div class="container">
+            <h2>You want your child to love reading.</h2>
+            <h2>We can help with that.</h2>
+            <div>
+                <div class="grid-row">
+                    <div class="grid-column">
+                        <h3>Great Books</h3>
+                        <p>In order to enjoy reading, kids need to read the right books—the best books for them. We help them find those books.</p>
+                    </div>
+                    <div class="grid-column">
+                        <h3>Skills & Tools</h3>
+                        <p>Kids should feel empowered in their reading life. We provide them with opportunities & tools to develop the skills they need to do so.</p>
+                    </div>
+                    <div class="grid-column">
+                        <h3>Sharing</h3>
+                        <p>Sharing books with others takes the reading experience to the next level. We help kids grow together as they read together.</p>
+                    </div>
+                    <div class="grid-column">
+                        <h3>Parent Tools</h3>
+                        <p>You are a huge part of your child’s reading journey. We’re here to help you, too. You’ll be ready to be your child’s personal librarian in no time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- How it works -->
     <section>
-        
+        <div class="container">
+            <h2>How Bookmark's Reading Clubs Work</h2>
+            <div>
+                <div class="grid-row">
+                    <div class="grid-column">
+                        <img src="/img/imgh1.jpg" alt="">
+                    </div>
+                    <div class="grid-column">
+                        <p><span class="bold">Pick an Age Group.</span> We have clubs for pre-k through 6th grade, with middle school and high school coming soon!</p>
+                        <p><span class="bold">Delivered to Your Inbox Monthly.</span> Each subscription is delivered straight to your inbox monthly. You’ll have access to all of the materials forever!</p>
+                        <p><span class="bold">Let the Reading Love Begin!</span> Our clubs are help each age group find more joy in reading & develop lifelong habits that help them grow into strong readers.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn--default">Subscribe Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section>
+        <div class="container">
+            <h2>What others are saying about Bookmark</h2>
+            <blockquote cite="https://www.huxley.net/bnw/four.html">
+                <p>Thanks for making my life a million times easier! My children are book obsessed and I am not (but over the moon that they are), it’s hard for me to choose books for them. Thank you!</p>
+                <footer>—girlcanbuild</footer>
+            </blockquote>
+        </div>
     </section>
 
     <!-- Newsletter -->
     <section>
-        <h2>Join our newsletter</h2>
-        <p>Sign up for discounts, free resources, reading tips, and more.</p>
-
-        <!-- Begin Mailchimp Signup Form -->
-        <div id="mc_embed_signup">
-            <form action="https://bookmarkguides.us3.list-manage.com/subscribe/post?u=ebf7658a2b69e83a6808c5cd3&amp;id=ba232832b5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-                    <div class="mc-field-group">
-                        <label for="mce-EMAIL">Email Address </label>
-                        <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+        <div class="container">
+            <h2>Join our newsletter</h2>
+            <p>Sign up for discounts, free resources, reading tips, and more.</p>
+            
+            <!-- Begin Mailchimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="https://bookmarkguides.us3.list-manage.com/subscribe/post?u=ebf7658a2b69e83a6808c5cd3&amp;id=ba232832b5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <div class="mc-field-group">
+                            <label for="mce-EMAIL">Email Address </label>
+                            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+                        </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ebf7658a2b69e83a6808c5cd3_ba232832b5" tabindex="-1" value=""></div>
+                        <div class="clear">
+                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn--default">
+                        </div>
                     </div>
-                    <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ebf7658a2b69e83a6808c5cd3_ba232832b5" tabindex="-1" value=""></div>
-                    <div class="clear">
-                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn--default">
-                    </div>
-                </div>
-            </form>
+                </form>
+            </div>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            <!-- End Mailchimp Signup Form -->
         </div>
+    </section>
 
-        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-        <!--End mc_embed_signup-->
-
+    <!-- Instagram -->
+    <section>
+        <div class="container">
+            <div class="grid-row">
+                <div class="grid-column span-one-third">
+                    <p>Follow us on Instagram!</p>
+                    <p><a href="" class="link">@bookmarkguides</a></p>
+                </div>
+                <div class="grid-column">
+                    <!-- SnapWidget -->
+                    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                    <iframe src="https://snapwidget.com/embed/854265" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+                    <!-- End SnapWidget -->
+                </div>
+            </div>
+        </div>
     </section>
 
 </main>
