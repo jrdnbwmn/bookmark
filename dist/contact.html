@@ -27,31 +27,61 @@
 
 
 <header>
-    <div>
-        <nav class="no-bullets flex align-items-center justify-content-center">
+
+    <div class="container--lg">
+    
+        <!-- Desktop nav -->
+        <nav class="desktop-nav no-bullets flex align-items-center justify-content-center">
             <li class="ml1 mr1"><a href="/about.html" class="link pl1 pr1">About</a></li>
             <li class="ml1 mr1"><a href="/reading-clubs.html" class="link pl1 pr1">Reading Clubs</a></li>
             <li class="ml1 mr1"><a href="/" class="link pl1 pr1"><h1>Bookmark</h1></a></li>
             <li class="ml1 mr1"><a href="/free-resources.html" class="link pl1 pr1">Free Resources</a></li>
             <li class="ml1 mr1"><a href="/contact.html" class="link pl1 pr1">Contact</a></li>
         </nav>
+
+        <!-- Mobile nav -->
+        <nav class="mobile-nav js-mobile-nav border--bottom pt1">
+            <div class="clearfix pb1">
+                <a href="/" class="link float--left"><img class="block" src="https://catylist.com/img/internal-logos/catylist-logo.svg" style="max-width:90px;padding-top:.4rem" alt="Catylist"></a>
+                <div class="float--right" style="padding:.6rem 0 .6rem .4rem">
+                    <div class="mobile-nav-toggle mobile-nav-toggle--white js-mobile-nav-toggle">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                </div>
+            </div>
+            <ul class="no-bullets mobile-nav-menu bold border--top js-mobile-nav-menu">
+                <li><a class="link block pt1 pb1 border--bottom" href="/about.html">About</a></li>
+                <li><a class="link block pt1 pb1 border--bottom" href="/reading-clubs.html">Reading Clubs</a></li>
+                <li><a class="link block pt1 pb1 border--bottom" href="/free-resources.html">Free Resources</a></li>
+                <li><a class="link block pt1 pb1" href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
     </div>
+
 </header>
 
 <div class="container pt3 pb3">
 
     <section>
-        <h1>Contact</h1>
-        <p>blah.</p>
+        <div class="align--center mb3">
+            <h1>Contact</h1>
+            <p>How can I help? Fill out the form below and I'll get back to you as soon as possible.</p>
+        </div>
 
         <form action="https://getform.io/f/cf6b048d-fd93-4888-9af9-e4f9112ee343" method="POST">
             <label for="name">Name</label>
-            <input class="form-control" name="name" id="name">
+            <input class="form-control mb1" name="name" id="name" placeholder="Jane Doe">
             <label for="email">Email</label>
-            <input class="form-control" type="email" name="email" id="email">
+            <input class="form-control mb1" type="email" name="email" id="email" placeholder="jane.doe@example.com">
             <label for="message">Message</label>
-            <input class="form-control" name="message" id="message">
-            <button class="btn btn--default" type="submit">Send</button>
+            <textarea class="form-control mb2" name="message" id="message" placeholder="Explain your question or"></textarea>
+            <div class="align--right">
+                <button class="btn btn--default" type="submit"><i class="i i-paper-plane"></i> &nbsp;Send</button>
+            </div>
         </form>
     </section>
 
@@ -70,11 +100,11 @@
     </div>
 </footer>
 
-        <!-- jQuery from CDN -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+        <!-- Reference latest jQuery, with a local fallback -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
-        <!-- The compiled JavaScript file -->
-        <script src="js/production.js"></script>
+        <!-- The compiled Javascript file -->
+        <script src="/js/production.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>

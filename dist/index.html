@@ -27,15 +27,41 @@
 
 
 <header>
-    <div>
-        <nav class="no-bullets flex align-items-center justify-content-center">
+
+    <div class="container--lg">
+    
+        <!-- Desktop nav -->
+        <nav class="desktop-nav no-bullets flex align-items-center justify-content-center">
             <li class="ml1 mr1"><a href="/about.html" class="link pl1 pr1">About</a></li>
             <li class="ml1 mr1"><a href="/reading-clubs.html" class="link pl1 pr1">Reading Clubs</a></li>
             <li class="ml1 mr1"><a href="/" class="link pl1 pr1"><h1>Bookmark</h1></a></li>
             <li class="ml1 mr1"><a href="/free-resources.html" class="link pl1 pr1">Free Resources</a></li>
             <li class="ml1 mr1"><a href="/contact.html" class="link pl1 pr1">Contact</a></li>
         </nav>
+
+        <!-- Mobile nav -->
+        <nav class="mobile-nav js-mobile-nav border--bottom pt1">
+            <div class="clearfix pb1">
+                <a href="/" class="link float--left"><img class="block" src="https://catylist.com/img/internal-logos/catylist-logo.svg" style="max-width:90px;padding-top:.4rem" alt="Catylist"></a>
+                <div class="float--right" style="padding:.6rem 0 .6rem .4rem">
+                    <div class="mobile-nav-toggle mobile-nav-toggle--white js-mobile-nav-toggle">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                </div>
+            </div>
+            <ul class="no-bullets mobile-nav-menu bold border--top js-mobile-nav-menu">
+                <li><a class="link block pt1 pb1 border--bottom" href="/about.html">About</a></li>
+                <li><a class="link block pt1 pb1 border--bottom" href="/reading-clubs.html">Reading Clubs</a></li>
+                <li><a class="link block pt1 pb1 border--bottom" href="/free-resources.html">Free Resources</a></li>
+                <li><a class="link block pt1 pb1" href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
     </div>
+
 </header>
 
 <main>
@@ -111,31 +137,36 @@
     </section>
 
     <!-- Newsletter -->
-    <section class="pt4 pb4 bg--shade">
-        <div class="container">
-            <h2>Join our newsletter</h2>
-            <p>Sign up for discounts, free resources, reading tips, and more.</p>
-            
-            <!-- Begin Mailchimp Signup Form -->
-            <div id="mc_embed_signup">
-                <form action="https://bookmarkguides.us3.list-manage.com/subscribe/post?u=ebf7658a2b69e83a6808c5cd3&amp;id=ba232832b5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <div class="mc-field-group">
-                            <input type="email" name="EMAIL" class="required email form-control" id="mce-EMAIL">
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>
-                        <div style="position:absolute;left:-5000px" aria-hidden="true"><input name="b_ebf7658a2b69e83a6808c5cd3_ba232832b5" tabindex="-1"></div>
-                        <div class="clear">
-                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn--default">
-                        </div>
-                    </div>
-                </form>
+    <section class="bg--shade">
+        <div class="grid-row">
+            <div class="grid-column">
+                <div class="newsletter-signup-image full-height"></div>
             </div>
-            <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-            <!-- End Mailchimp Signup Form -->
+            <div class="grid-column">
+                <h2>Join our newsletter</h2>
+                <p>Sign up for discounts, free resources, reading tips, and more.</p>
+                
+                <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="https://bookmarkguides.us3.list-manage.com/subscribe/post?u=ebf7658a2b69e83a6808c5cd3&amp;id=ba232832b5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <div class="mc-field-group">
+                                <input type="email" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <div style="position:absolute;left:-5000px" aria-hidden="true"><input name="b_ebf7658a2b69e83a6808c5cd3_ba232832b5" tabindex="-1"></div>
+                            <div class="clear">
+                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn--default">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                <!-- End Mailchimp Signup Form -->
+            </div>
         </div>
     </section>
 
@@ -172,11 +203,11 @@
     </div>
 </footer>
 
-        <!-- jQuery from CDN -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+        <!-- Reference latest jQuery, with a local fallback -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
-        <!-- The compiled JavaScript file -->
-        <script src="js/production.js"></script>
+        <!-- The compiled Javascript file -->
+        <script src="/js/production.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>

@@ -19,3 +19,17 @@ $(document).click(function(event) {
         }
     }
 });
+
+
+// Mobile nav
+// ----------------------------------------------------------------
+$( ".js-mobile-nav-toggle" ).click(function() {
+    $( ".js-mobile-nav-menu" ).slideToggle( 300, function() {
+    });
+});
+
+$(document).ready(function(){
+    $('.mobile-nav-toggle').click( 300, function(){
+        $(this).toggleClass('open');
+    });
+});
