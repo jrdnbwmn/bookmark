@@ -7,24 +7,27 @@ $gray-2:                  #d7dbde !default;
 $gray-3:                  #9faab0 !default;
 $gray-4:                  #697780 !default;
 $gray-5:                  #434c51 !default;
-$gray-6:                  #24292C !default;
+$gray-6:                  #21354c !default;
 
 $shade:                   #F7F6F2 !default;
 
 // Hues
-$blue:                    #16a0e5 !default;
+$salmon:                  #FCD1B2 !default;
+$blue:                    #3B77B9 !default;
+$yellow:                  #FDDB4C !default;
+$red:                     #F1785D !default;
+$green:                   #58AC7C !default;
+
+// Other hues
 $turquoise:               #18c9a5 !default;
-$green:                   #72c111 !default;
-$yellow:                  #f9b520 !default;
 $orange:                  #f98320 !default;
-$red:                     #d82d2d !default;
 $pink:                    #db4aa6 !default;
 $purple:                  #8647bc !default;
 $brown:                   #9e6025 !default;
 
 // Color scheme
-$primary-color:           $blue !default;
-$secondary-color:         $green !default;
+$primary-color:           $red !default;
+$secondary-color:         $blue !default;
 $tertiary-color:          $yellow !default;
 
 
@@ -36,7 +39,7 @@ $baseline:                .4rem !default;
 // Typography
 // -------------------------------------------------------------------
 // Font families
-$sans-serif:              "Open Sans", Avenir, "Avenir Next", Trebuchet, Verdana,
+$sans-serif:              Montserrat, Avenir, "Avenir Next", Trebuchet, Verdana,
                           sans-serif !default;
 $serif:                   "Frank Ruhl Libre", Georgia, Times, serif !default;
 $monospace:               Monaco, Menlo, Consolas,
@@ -140,6 +143,7 @@ $border-color:            $gray-2 !default;
 $border-style:            solid !default;
 $border-radius:           4px !default;
 $border-width:            1px !default;
+$border-width--thick:     3px !default;
 
 
 // Shadows

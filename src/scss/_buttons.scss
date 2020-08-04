@@ -9,6 +9,7 @@
     display: inline-block; // Allow us to better style box model properties
     font-family: $font-family--ui;
     font-size: 1rem;
+    font-weight: 700;
     line-height: $line-height--base;
     margin-bottom: 0; // For input.btn
     padding: $button-padding;
@@ -117,19 +118,39 @@ a.btn {
 .btn--outline,
 .btn--outline:visited {
     background-color: transparent;
-    border-color: $border-color;
-    border-width: $border-width;
+    border-color: $gray-5;
+    border-width: $border-width--thick;
     color: $text-color;
 
     &:hover,
     &:focus {
         background-color: transparent;
-        border-color: $gray-5;
+        border-color: $gray-3;
     }
 
     &:active {
         background-color: transparent;
         border-color: $gray-2;
+    }
+}
+
+// White outline button
+.btn--outline--white,
+.btn--outline--white:visited {
+    background-color: transparent;
+    border-color: $white;
+    border-width: $border-width--thick;
+    color: $text-color;
+
+    &:hover,
+    &:focus {
+        background-color: transparent;
+        border-color: $gray-6;
+    }
+
+    &:active {
+        background-color: transparent;
+        border-color: $gray-6;
     }
 }
 

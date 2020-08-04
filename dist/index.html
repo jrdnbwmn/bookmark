@@ -28,21 +28,21 @@
 
 <header>
 
-    <div class="container--lg">
+    <div>
     
-        <!-- Desktop nav -->
+        <!-- Desktop nav try all caps and smaller -->
         <nav class="desktop-nav no-bullets flex align-items-center justify-content-center">
-            <li class="ml1 mr1"><a href="/about.html" class="link pl1 pr1">About</a></li>
-            <li class="ml1 mr1"><a href="/reading-clubs.html" class="link pl1 pr1">Reading Clubs</a></li>
-            <li class="ml1 mr1"><a href="/" class="link pl1 pr1"><h1>Bookmark</h1></a></li>
-            <li class="ml1 mr1"><a href="/free-resources.html" class="link pl1 pr1">Free Resources</a></li>
-            <li class="ml1 mr1"><a href="/contact.html" class="link pl1 pr1">Contact</a></li>
+            <li class="ml3 mr3"><a href="/about.html" class="link link--text pl1 pr1">About</a></li>
+            <li class="ml3 mr3"><a href="/reading-clubs.html" class="link link--text pl1 pr1">Reading&nbsp;Clubs</a></li>
+            <li class="ml3 mr3"><a href="/" class="link pl1 pr1"><h1><img class="logo" src="/img/bookmark-logo-tall.svg" alt="Bookmark"></h1></a></li>
+            <li class="ml3 mr3"><a href="/free-resources.html" class="link link--text pl1 pr1">Free&nbsp;Resources</a></li>
+            <li class="ml3 mr3"><a href="/contact.html" class="link link--text pl1 pr1">Contact</a></li>
         </nav>
 
         <!-- Mobile nav -->
         <nav class="mobile-nav js-mobile-nav border--bottom pt1">
             <div class="clearfix pb1">
-                <a href="/" class="link float--left"><img class="block" src="https://catylist.com/img/internal-logos/catylist-logo.svg" style="max-width:90px;padding-top:.4rem" alt="Catylist"></a>
+                <a href="/" class="link float--left"><img class="block" src="/img/bookmark-logo-tall.svg" style="max-height:28px;padding-top:.4rem" alt="Catylist"></a>
                 <div class="float--right" style="padding:.6rem 0 .6rem .4rem">
                     <div class="mobile-nav-toggle mobile-nav-toggle--white js-mobile-nav-toggle">
                       <span></span>
@@ -53,10 +53,10 @@
                 </div>
             </div>
             <ul class="no-bullets mobile-nav-menu bold border--top js-mobile-nav-menu">
-                <li><a class="link block pt1 pb1 border--bottom" href="/about.html">About</a></li>
-                <li><a class="link block pt1 pb1 border--bottom" href="/reading-clubs.html">Reading Clubs</a></li>
-                <li><a class="link block pt1 pb1 border--bottom" href="/free-resources.html">Free Resources</a></li>
-                <li><a class="link block pt1 pb1" href="/contact.html">Contact</a></li>
+                <li><a class="link link--text block pt1 pb1 border--bottom" href="/about.html">About</a></li>
+                <li><a class="link link--text block pt1 pb1 border--bottom" href="/reading-clubs.html">Reading Clubs</a></li>
+                <li><a class="link link--text block pt1 pb1 border--bottom" href="/free-resources.html">Free Resources</a></li>
+                <li><a class="link link--text block pt1 pb1" href="/contact.html">Contact</a></li>
             </ul>
         </nav>
 
@@ -66,21 +66,25 @@
 
 <main>
 
-    <!-- Hero -->
+    <!-- Hero try button different color, all caps buttons and headerlinks, text more like Alcott, try vision in its own bar, new colors spread out across page -->
     <section class="hero pt5 pb5">
         <div class="container--lg pt4 pb4">
-            <h2 class="mb1">Reading joy made easy</h2>
-            <p class="mb1">Our monthly reading club makes reading more joyful and less stressful for both kids and parents.</p>
-            <a href="" class="btn btn--outline">Get Started</a>
+            <div class="grid-row">
+                <div class="grid-column span-5">
+                    <h2 class="mb1">Reading joy made easy</h2>
+                    <p class="mb2">Our monthly reading club makes reading more joyful and less stressful for both kids and parents.</p>
+                    <a href="" class="btn btn--outline">Get Started →</a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Pillars -->
-    <section class="pt5 pb5 bg--shade">
+    <!-- Pillars wider apart, same length -->
+    <section class="pt5 pb5">
         <div class="container--lg">
             <div class="align--center pb4">
-                <h2>You want your child to love reading.</h2>
-                <h2>We can help with that.</h2>
+                <h2 class="mb1 text--green">You want your child to love reading.</h2>
+                <h2 class="text--green">We can help with that.</h2>
             </div>
             <div>
                 <div class="grid-row">
@@ -97,7 +101,7 @@
                         <p>Sharing books with others takes the reading experience to the next level. We help kids grow together as they read together.</p>
                     </div>
                     <div class="grid-column">
-                        <h3 class="mb1">Parent Tools</h3>
+                        <h3 class="mb1">Child Led</h3>
                         <p>You are a huge part of your child’s reading journey. We’re here to help you, too. You’ll be ready to be your child’s personal librarian in no time.</p>
                     </div>
                 </div>
@@ -105,52 +109,74 @@
         </div>
     </section>
 
-    <!-- How it works -->
-    <section class="pt5 pb5">
+    <!-- How it works - lighter text, line up button -->
+    <section class="bg--shade pt5 pb5">
         <div class="container--lg">
             <h2 class="align--center mb4">How Bookmark's Reading Clubs Work</h2>
             <div>
-                <div class="grid-row">
+                <div class="grid-row grid-row--center">
                     <div class="grid-column">
                         <div class="flex" style="flex:0 1 auto;flex-direction:row;flex-wrap:wrap">
-                            <div class="font--heading bold h3" style="flex-basis:41px;max-width:41px;flex:1 0 0%">1.</div>
+                            <div class="font--heading bold h3 text--red" style="flex-basis:41px;max-width:41px;flex:1 0 0%">1.</div>
                             <div style="flex:1 0 0%">
                                 <p class="mb2"><span class="bold">Pick an Age Group.</span> We have clubs for pre-k through 6th grade, with middle school and high school coming soon!</p>
                             </div>
                         </div>
                         <div class="flex" style="flex:0 1 auto;flex-direction:row;flex-wrap:wrap">
-                            <div class="font--heading bold h3" style="flex-basis:41px;max-width:41px;flex:1 0 0%">2.</div>
+                            <div class="font--heading bold h3 text--shade" style="flex-basis:41px;max-width:41px;flex:1 0 0%">2.</div>
                             <div style="flex:1 0 0%">
                                 <p class="mb2"><span class="bold">Delivered to Your Inbox Monthly.</span> Each subscription is delivered straight to your inbox monthly. You’ll have access to all of the materials forever!</p>
                             </div>
                         </div>
                         <div class="flex" style="flex:0 1 auto;flex-direction:row;flex-wrap:wrap">
-                            <div class="font--heading bold h3" style="flex-basis:41px;max-width:41px;flex:1 0 0%">3.</div>
+                            <div class="font--heading bold h3 text--green" style="flex-basis:41px;max-width:41px;flex:1 0 0%">3.</div>
                             <div style="flex:1 0 0%">
                                 <p><span class="bold">Let the Reading Love Begin!</span> Our clubs are help each age group find more joy in reading & develop lifelong habits that help them grow into strong readers.</p>
                             </div>
                         </div>
+                        <div class="mt3">
+                <button class="btn btn--outline--white">See the Options →</button>
+            </div>
                     </div>
                     <div class="grid-column span-1"></div>
                     <div class="grid-column">
-                        <img src="/img/imgh1.jpg" alt="">
+                        <div class="border--full p1 rounded" style="border-color:#fff;border-width:3px">
+                            <img class="rounded" src="/img/howitworks.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="align--center mt4">
-                <button class="btn btn--default">See the Options</button>
-            </div>
+            
         </div>
     </section>
 
     <!-- Testimonials -->
     <section class="pt5 pb5">
-        <div class="container">
-            <h2>What others are saying about Bookmark</h2>
-            <blockquote cite="https://www.huxley.net/bnw/four.html">
-                <p>Thanks for making my life a million times easier! My children are book obsessed and I am not (but over the moon that they are), it’s hard for me to choose books for them. Thank you!</p>
-                <footer>—girlcanbuild</footer>
-            </blockquote>
+        <div class="container--lg align--center">
+            <p class="mb3 text--gray-4">What others are saying about Bookmark:</p>
+            <div class="grid-row">
+                <div class="grid-column">
+                    <div>
+                        <p class="h3 font--heading bold mb1 text--green">"Thanks for making my life a million times easier!"</p>
+                        <p class="mb1">My children are book obsessed and I am not (but over the moon that they are), it’s hard for me to choose books for them. Thank you!</p>
+                        <p>– Girlcanbuild</p>
+                    </div>
+                </div>
+                <div class="grid-column">
+                    <div>
+                        <p class="h3 font--heading bold mb1 text--green">"Thanks for making my life a million times easier!"</p>
+                        <p class="mb1">My children are book obsessed and I am not (but over the moon that they are), it’s hard for me to choose books for them. Thank you!</p>
+                        <p>– Girlcanbuild</p>
+                    </div>
+                </div>
+                <div class="grid-column">
+                    <div>
+                        <p class="h3 font--heading bold mb1 text--green">"Thanks for making my life a million times easier!"</p>
+                        <p class="mb1">My children are book obsessed and I am not (but over the moon that they are), it’s hard for me to choose books for them. Thank you!</p>
+                        <p>– Girlcanbuild</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -160,43 +186,54 @@
             <div class="grid-column">
                 <div class="newsletter-signup-image full-height"></div>
             </div>
-            <div class="grid-column">
+            <div class="grid-column pt4 pb4">
                 <div class="pt5 pb5">
-                    <h2 class="mb1">Join our newsletter</h2>
-                    <p class="mb2">Sign up for discounts, free resources, reading tips, and more.</p>
-                    
-                    <!-- Begin Mailchimp Signup Form -->
-                    <div id="mc_embed_signup">
-                        <form action="https://bookmarkguides.us3.list-manage.com/subscribe/post?u=ebf7658a2b69e83a6808c5cd3&amp;id=ba232832b5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                            <div id="mc_embed_signup_scroll">
-                                <div class="mc-field-group">
-                                    <input type="email" name="EMAIL" class="required email form-control" id="mce-EMAIL">
-                                </div>
-                                <div id="mce-responses" class="clear">
-                                    <div class="response" id="mce-error-response" style="display:none"></div>
-                                    <div class="response" id="mce-success-response" style="display:none"></div>
-                                </div>
-                                <div style="position:absolute;left:-5000px" aria-hidden="true"><input name="b_ebf7658a2b69e83a6808c5cd3_ba232832b5" tabindex="-1"></div>
-                                <div class="clear">
-                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn--default">
-                                </div>
+                    <div class="grid-row">
+                        <div class="grid-column span-2"></div>
+                        <div class="grid-column">
+                            <h2 class="mb1">Join our newsletter!</h2>
+                            <p class="mb2">Sign up for discounts, free resources, reading tips, and more.</p>
+                            
+                            <!-- <div class="flex centered" style="max-width: 700px; display: flex;">
+                                <div class="inline-block full-width left-align"><div class="inline-block relative full-width"><input class="form-control autocomplete-input" type="text" placeholder="Enter a City, State" autocomplete="cr-autocomplete" value="" style="border-top: none; border-right: none; border-bottom: none; border-left: 1px solid rgb(82, 97, 114); border-image: initial; height: 3.2rem; border-radius: 0px;"></div></div>
+                                <button class="btn btn--national full-shadow pt2 pb2 js-large-modal-show" style="border: 0px; padding-left: 1.5rem; padding-right: 1.5rem; border-top-left-radius: 0px; border-bottom-left-radius: 0px; max-height: 49px;"><i class="i i-magnifying-glass" style="line-height: 1.5rem;"></i><span class="hide-on-mobile"> Search</span></button>
+                            </div> -->
+                            
+                            <!-- Begin Mailchimp Signup Form -->
+                            <div id="mc_embed_signup">
+                                <form action="https://bookmarkguides.us3.list-manage.com/subscribe/post?u=ebf7658a2b69e83a6808c5cd3&amp;id=ba232832b5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <div id="mc_embed_signup_scroll flex">
+                                        <div class="mc-field-group flex" style="flex-grow:1">
+                                            <input type="email" name="EMAIL" class="required email form-control flex" id="mce-EMAIL" placeholder="Email address">
+                                        </div>
+                                        <div id="mce-responses" class="clear">
+                                            <div class="response" id="mce-error-response" style="display:none"></div>
+                                            <div class="response" id="mce-success-response" style="display:none"></div>
+                                        </div>
+                                        <div style="position:absolute;left:-5000px" aria-hidden="true"><input name="b_ebf7658a2b69e83a6808c5cd3_ba232832b5" tabindex="-1"></div>
+                                        <div class="clear flex">
+                                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn--outline">
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                        </form>
+                            <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                            <!-- End Mailchimp Signup Form -->
+                        </div>
+                        <div class="grid-column span-2"></div>
                     </div>
-                    <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-                    <!-- End Mailchimp Signup Form -->
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Instagram -->
+    <!-- Instagram gray link -->
     <section class="pt4 pb4">
         <div class="container--lg">
             <div class="grid-row grid-row--center">
-                <div class="grid-column span-one-third">
-                    <p>Follow us on Instagram!</p>
-                    <p><a href="" class="link">@bookmarkguides</a></p>
+                <div class="grid-column span-3">
+                    <p class="h2 font--heading bold mb1">Follow us on Instagram!</p>
+                    <p><a href="https://www.instagram.com/bookmarkguides/" class="link">@BOOKMARKGUIDES</a></p>
                 </div>
                 <div class="grid-column">
                     <!-- SnapWidget -->
@@ -210,15 +247,14 @@
 
 </main>
 
-<footer class="bg--gray-6 text--white">
+<footer class="bg--green text--white">
     <div class="container--lg pt3 pb3">
         <div class="clearfix">
             <p class="float--left">&copy; Copyright 2020 Bookmark Guides</p>
             <div class="float--right">
-                <ul class="no-bullets">
-                    <li><a href="" class="link"><i class="i i-instagram"></i></a></li>
-                    <li><a href="" class="link"></a></li>
-                    <li><a href="" class="link"></a></li>
+                <ul class="no-bullets list--inline">
+                    <li class="mr1"><a href="https://www.facebook.com/bookmarkguides" class="link"><img class="social-icons" src="/img/facebook.svg" alt="Bookmark Facebook"></a></li>
+                    <li><a href="https://www.instagram.com/bookmarkguides/" class="link"><img class="social-icons" src="/img/instagram.svg" alt="Bookmark Instagram"></a></li>
                 </ul>
             </div>
         </div>

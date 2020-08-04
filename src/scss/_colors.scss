@@ -9,10 +9,19 @@
 .text--gray-5              { color: $gray-5; }
 .text--gray-6              { color: $gray-6; }
 
+.text--shade               { color: $shade; }
+
 // Color scheme
 .text--primary-color       { color: $primary-color; }
 .text--secondary-color     { color: $secondary-color; }
 .text--tertiary-color      { color: $tertiary-color; }
+
+// Hues
+.text--salmon              { color: $salmon; }
+.text--blue                { color: $blue; }
+.text--yellow              { color: $yellow; }
+.text--red                 { color: $red; }
+.text--green               { color: $green; }
 
 
 // Background colors
@@ -34,12 +43,15 @@
 .bg--tertiary-color        { background-color: $tertiary-color; }
 
 // Hues
+.bg--salmon                { background-color: $salmon; }
 .bg--blue                  { background-color: $blue; }
-.bg--turquoise             { background-color: $turquoise; }
-.bg--green                 { background-color: $green; }
 .bg--yellow                { background-color: $yellow; }
-.bg--orange                { background-color: $orange; }
 .bg--red                   { background-color: $red; }
+.bg--green                 { background-color: $green; }
+
+// Other hues
+.bg--turquoise             { background-color: $turquoise; }
+.bg--orange                { background-color: $orange; }
 .bg--pink                  { background-color: $pink; }
 .bg--purple                { background-color: $purple; }
 .bg--brown                 { background-color: $brown; }
