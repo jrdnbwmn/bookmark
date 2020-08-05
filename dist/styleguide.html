@@ -19,7 +19,8 @@
 
         <!-- favicon.ico and apple-touch-icon. A good tool is http://iconogen.com/. Place these in the root directory. -->
         <link rel="shortcut icon" href="favicon.ico">
-        <link rel="apple-touch-icon" href="icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
     </head>
 
@@ -310,12 +311,15 @@
         <!-- The compiled Javascript file -->
         <script src="/js/production.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174604251-1"></script>
         <script>
-          window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-          ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-174604251-1');
         </script>
-        <script src="https://www.google-analytics.com/analytics.js" async></script>
 
     </body>
 </html>
