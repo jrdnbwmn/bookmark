@@ -37,6 +37,12 @@
 
 .bg--shade                 { background-color: $shade; }
 
+.bg--shade-on-mobile {
+    @media screen and (max-width: $breakpoint--sm) {
+        background-color: $shade;
+    }
+}
+
 // Color scheme
 .bg--primary-color         { background-color: $primary-color; }
 .bg--secondary-color       { background-color: $secondary-color; }

@@ -35,3 +35,39 @@
 .pr5 { padding-right: $space-5 }
 .pb5 { padding-bottom: $space-5 }
 .pl5 { padding-left: $space-5 }
+
+.p0-on-mobile {
+    @media screen and (max-width: $breakpoint--sm) {
+        padding: 0;
+    }
+}
+
+.pl2-on-mobile {
+    @media screen and (max-width: $breakpoint--sm) {
+        padding-left: $space-2;
+    }
+}
+
+.pr2-on-mobile {
+    @media screen and (max-width: $breakpoint--sm) {
+        padding-right: $space-2;
+    }
+}
+
+.pb2-on-mobile {
+    @media screen and (max-width: $breakpoint--sm) {
+        padding-bottom: $space-2;
+    }
+}
+
+.pt3-on-mobile {
+    @media screen and (max-width: $breakpoint--sm) {
+        padding-top: $space-3;
+    }
+}
+
+.pb3-on-mobile {
+    @media screen and (max-width: $breakpoint--sm) {
+        padding-bottom: $space-3;
+    }
+}

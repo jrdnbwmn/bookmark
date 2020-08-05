@@ -7,7 +7,7 @@
 .form-control {
     background-image: none; // Reset unusual Firefox-on-Android default style
     border: $border-width solid $border-color;
-    border-radius: $border-radius;
+    border-radius: 0px;
     color: $text-color;
     display: block;
     font-family: $font-family--ui;
@@ -17,6 +17,10 @@
     padding: $form-padding;
     width: 100%;
     -moz-osx-font-smoothing: grayscale;
+
+    @media screen and (max-width: $breakpoint--sm) {
+        max-height: 50px;
+    }
 }
 
 .label {

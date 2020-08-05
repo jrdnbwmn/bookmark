@@ -36,6 +36,20 @@
 .flex                  { display: flex; }
 .align-items-center    { align-items: center; }
 .justify-content-center{ justify-content: center; }
+.flex-grow-1 {
+    flex-grow: 1;
+
+    @media screen and (max-width: $breakpoint--sm) {
+        flex-grow: initial;
+    }
+}
+.no-flex-on-mobile {
+    display: flex !important;
+    
+    @media screen and (max-width: $breakpoint--sm) {
+        display: block !important;
+    }
+}
 
 // Some mobile utilities
 // `show-on-mobile` displays the element only on mobile devices
@@ -49,6 +63,13 @@
 
     .hide-on-mobile {
         display: none !important;
+    }
+}
+
+.input-block-on-mobile {
+    @media screen and (max-width: $breakpoint--sm) {
+        display: block;
+        width: 100%;
     }
 }
 
